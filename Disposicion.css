@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.imag1, .imag2, .imag3, .imag4{
+    width: 300px;
+}
+.imag1{
+    width: 100vw;
+}
+.imag4:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 1s;
+}
+.imag3:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 1s;
+}
+.imag2:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 1s;
+}
+.imag1:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 1s;
+}
+
