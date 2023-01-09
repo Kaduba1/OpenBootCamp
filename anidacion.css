@@ -1,0 +1,40 @@
+/* Ejercicio 8 - Curso de HTML y CSS - OpenBootcamp | */
+*{
+    margin: 0;
+    padding: 0
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 100px;
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    border-width:1px;
+    border-radius: 20px;
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+    text-shadow:inset 0px 1px 0px #263666;
+    background-color:transparent;
+    
+}
+.button:hover{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    cursor: alias;
+}
+.button::before{
+    content: "Pasalo por encima";
+}
+
+.button:hover::before{
+    content: "KYAA";
+    transition: 2s;
+}
